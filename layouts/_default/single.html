@@ -3,13 +3,13 @@
 
 <article>
     <header>
-        <h1>{{ .Title }}</h1>
+        <h1 style="margin-bottom: 0px;">{{ .Title }}</h1>
+    <p class="post-meta" style="margin-top: 0px;">
+        <time datetime="{{ .Date }}">
+            {{ .Date | time.Format site.Params.theme_config.date_format }}
+        </time>
+    </p>
     </header>
-    <!-- <p class="post-meta"> -->
-    <!--     <time datetime="{{ .Date }}"> -->
-    <!--         {{ .Date | time.Format site.Params.theme_config.date_format }} -->
-    <!--     </time> -->
-    <!-- </p> -->
 
     {{ .Content }}
 </article>
