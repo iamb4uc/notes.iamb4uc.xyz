@@ -2,19 +2,15 @@
 
 html,
 body {
-    color: black;
+    color: #37352a;
     background: #f7f7f2;
     font-style: normal;
 }
 
 body a {
     text-decoration: none;
-    color: #005772;
-}
-
-.hglt a {
-    background-color: #afd8d8;
-    color: #011835;
+    color: #f7f7f2;
+    background-color: #775e42;
     border-radius: 5px;
     padding: 3px 7px;
 }
@@ -43,8 +39,8 @@ body {
     width: 50%;
 }
 
-h1 {
-    // text-align: center;
+header h1 {
+    text-align: center;
     display: flex;
     font-size: 2em;
 }
@@ -55,11 +51,6 @@ h4,
 h5,
 h6 {
     margin-top: 1.2em;
-}
-
-hr {
-    margin: 2rem 0;
-
 }
 
 p {
@@ -81,15 +72,16 @@ li {
 }
 
 hr {
+    margin: 1.4rem 0;
     text-align: center;
     border: 0;
 
     &:before {
-        content: "--- END";
+        content: "---";
     }
 
     &:after {
-        content: attr(data-content) " ---";
+        content: attr(data-content) "---";
     }
 }
 
@@ -150,8 +142,8 @@ figcaption {
 
 .dsclmr {
     padding: 10px;
-    color: #FCF8F0;
-    background: #c35d5d;
+    background-color: #b93a3d;
+    color: #f7f7f2;
     border-radius: 5px;
     text-align: center;
 }
