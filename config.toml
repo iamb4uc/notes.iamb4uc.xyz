@@ -1,6 +1,6 @@
-baseURL = 'http://iamb4uc.xyz'
+baseURL = 'http://notes.iamb4uc.xyz'
 languageCode = 'en-us'
-title = "🏠 Home"
+title = "📔 Notes"
 
 [module]
   [module.hugoVersion]
@@ -32,8 +32,8 @@ title = "🏠 Home"
 [params]
   [params.theme_config]
     appearance = "auto"
-    back_home_text = "🏠"
-    date_format = "01-2006"
+    back_home_text = "📖"
+    date_format = "13-01-2006"
 
 [privacy]
   [privacy.disqus]
