@@ -1,0 +1,50 @@
+baseURL = 'http://iamb4uc.xyz'
+languageCode = 'en-us'
+title = "🏠 Home"
+
+[module]
+  [module.hugoVersion]
+    extended=true
+    min = "0.41.0"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)'], ['$', '$']]
+
+  [markup.highlight]
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    # style = 'murphy'
+    style = 'gruvbox'
+    tabWidth = 4
+
+[params]
+  [params.theme_config]
+    appearance = "auto"
+    back_home_text = "🏠"
+    date_format = "01-2006"
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.instagram]
+    disable = true
+  [privacy.twitter]
+    disable = true
+  [privacy.vimeo]
+    disable = true
+  [privacy.youtube]
+    disable = true
