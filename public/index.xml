@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on 🏠 Home</title>
-    <link>http://iamb4uc.xyz/</link>
-    <description>Recent content in Home on 🏠 Home</description>
+    <title>Notes on 📔 Notes</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Notes on 📔 Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://iamb4uc.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Mar 2024 13:33:58 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unit 1 -- Artificial Intelligence and Intelligent Systems</title>
+      <link>http://localhost:1313/notes/cap450-u1/</link>
+      <pubDate>Sat, 09 Mar 2024 13:33:58 +0530</pubDate>
+      <guid>http://localhost:1313/notes/cap450-u1/</guid>
+      <description>Day 1 09-03-2024 Introduction to AI and Intelligent Agents Applications of AI Healthcare:&#xA;Medical imaging analysis Personalized treatment plans Drug discovery Virtual health assistants Predictive analytics for disease diagnosis and patient outcomes. Finance:&#xA;Fraud detection Algorithmic trading Credit scoring Customer service chatbots E-commerce:&#xA;Recommendation systems personalized marketing campaigns Chatbots for customer service AI powers recommendation systems, personalized marketing campaigns, and chatbots for customer support. It enhances the shopping experience by understanding consumer behavior and preferences.</description>
+    </item>
+    <item>
+      <title>Unit 1 -- Mathematical Logic</title>
+      <link>http://localhost:1313/notes/mth403-u1/</link>
+      <pubDate>Wed, 21 Feb 2024 19:55:28 +0530</pubDate>
+      <guid>http://localhost:1313/notes/mth403-u1/</guid>
+      <description>Reference book&#xA;DAY 1 21-02-2024 Propositions and Truth Table A proposition is a declarative sentence (i.e., a sentence that declares a fact) that is either true or false, but not both.&#xA;Example: 1. Washington, D.C., is the capital of USA 2. Toronto is the capital of CANADA 3. 1+1=2 4. 2+2=3 Propositions 1 and 3 are true, whereas 2 and 4 are false. Truth Table Truth table is the representation of all the True and False values a statement has.</description>
+    </item>
   </channel>
 </rss>

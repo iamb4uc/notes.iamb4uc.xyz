@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="cache-control" content="max-age=604800">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <meta name="description" content="Reference book
+DAY 1 21-02-2024 Propositions and Truth Table A proposition is a declarative sentence (i.e., a sentence that declares a fact) that is either true or false, but not both.
+Example: 1. Washington, D.C., is the capital of USA 2. Toronto is the capital of CANADA 3. 1&#43;1=2 4. 2&#43;2=3 Propositions 1 and 3 are true, whereas 2 and 4 are false. Truth Table Truth table is the representation of all the True and False values a statement has."> 
+
+    <title>
+        
+        Unit 1 -- Mathematical Logic
+        
+    </title>
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="me" href="https://mastodon.social/@b4uc" />
+    <link rel="shortcut icon" type="image/x-icon" href="/" />
+    
+    
+    
+    <link rel="stylesheet" href="/main.89dc8d01d4d1d532308fa67295739da9c1856d0c069b69e19a0920011fb6393ecbb79aee69a3e3f1552f70789da76b40cafb85f84f5464e68bedd5378f6b4c51.css" integrity="sha512-idyNAdTR1TIwj6ZylXOdqcGFbQwGm2nhmgkgAR&#43;2OT7Lt5ruaaPj8VUvcHidp2tAyvuF&#43;E9UZOaL7dU3j2tMUQ==" />
+
+    
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)'], ['$', '$']],                 
+        }
+    };
+</script>
+
+    
+
+
+</head>
+<body a="auto">
+    <main class="page-content" aria-label="Content">
+        <div class="w"> <a class="house" href="/">📖</a>
+
+
+
+<article>
+    <header>
+        <h1 style="margin-bottom: 0px;">Unit 1 -- Mathematical Logic</h1>
+    <p class="post-meta" style="margin-top: 0px;">
+        <time datetime="2024-02-21 19:55:28 &#43;0530 IST">
+            21-02-2024
+        </time>
+    </p>
+    </header>
+
+    <p><a href="/pdf/MTH403-R1.pdf">Reference book</a></p>
+<!-- ```TOC -->
+<!-- TOPICS -->
+<!--     - Propositions and Truth Table -->
+<!--     - Negation, Conjunction, Disjunction, -->
+<!--       Conditional and Bi-Conditional Statements -->
+<!--         - Truth Table -->
+<!--         - Cheatsheet -->
+<!--     - Tautologies and Contradictions -->
+<!--     - Equivalence of Formulas -->
+<!--     - Duality Law -->
+<!--     - Predicates -->
+<!--     - The Statement Function -->
+<!--     - Variables and Quantifiers -->
+<!--     - Predicate Formulas -->
+<!--     - Methods of Proof (Inference Theory) -->
+<!-- ``` -->
+<h2 id="day-1">DAY 1</h2>
+<div class="dt">21-02-2024</div>
+<h3 id="propositions-and-truth-table">Propositions and Truth Table</h3>
+<p>A <strong>proposition</strong> is a declarative sentence (i.e., a
+sentence that declares a fact) that is either true or
+false, but not both.</p>
+<div class="highlight"><pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-groff" data-lang="groff"><span style="display:flex;"><span>Example:
+</span></span><span style="display:flex;"><span>1. Washington, D.C., is the capital of USA
+</span></span><span style="display:flex;"><span>2. Toronto is the capital of CANADA
+</span></span><span style="display:flex;"><span>3. 1+1=2
+</span></span><span style="display:flex;"><span>4. 2+2=3
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Propositions 1 and 3 are true, whereas 2 and 4 are false.
+</span></span></code></pre></div><h4 id="truth-table">Truth Table</h4>
+<p>Truth table is the representation of all the True and
+False values a statement has.</p>
+<p>Example: Proposition $p$ can have either True or False
+values at one time</p>
+<blockquote>
+<p><strong>Note:</strong>
+Number of Truth value of a table can be determined
+by $2^{n}\text{ where n = Number of proposition}$</p>
+</blockquote>
+<h3 id="negation-lnotnot">Negation ($\lnot$/not/~/!)</h3>
+<p>Let $p$ be a proposition. The <strong>negation</strong> of $p$, denoted
+by $\lnot p$, is the inverse of the original
+proposition/statement.</p>
+<h3 id="conjunction-landandbut">Conjunction ($\land$/and/but)</h3>
+<p>Let $p$ and $q$ be propositions. The <strong>conjunction</strong>
+of $p$ and $q$, denoted by $p \land q$, is the proposition
+&ldquo;$p$ and $q$&rdquo;. The conjunction $p \land q$ is true when
+both p and q are true and false otherwise.</p>
+<h3 id="disjunction-loror">Disjunction ($\lor$/or)</h3>
+<p>Let $p$ and $q$ be propositions. The <strong>disjunction</strong>
+of $p$ and $q$, denoted by $p \lor q$, is the proposition
+&ldquo;$p$ or $q$&rdquo;. The conjunction $p \lor q$ is false when
+both p and q are false and true otherwise.</p>
+<h3 id="conditional-statements">Conditional Statements</h3>
+<p>Let $p$ and $q$ be propositions. The conditional statement
+$p \rightarrow q$ is the proposition “if $p$, then
+$q$.” The conditional
+statement $p \rightarrow q$ is false when $p$ is true
+and $q$ is false, and true otherwise. In the conditional
+statement $p \rightarrow q$, $p$ is called the hypothesis
+(or antecedent or premise) and q is called the conclusion
+(or consequence).</p>
+<h3 id="bi-conditional-statements">Bi-Conditional Statements</h3>
+<p>Let $p$ and $q$ be propositions. The <strong>biconditional</strong>
+statement $p \leftrightarrow q$ is the proposition
+“$p$ if and only if $q$.” The biconditional statement
+$p \leftrightarrow q$ is true when $p$ and $q$ have the
+same truth values, and is false otherwise. Biconditional
+statements are also called bi-implications.</p>
+<h4 id="truth-table-for-all-of-the-above-statements">Truth table for all of the above statements</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">$p$</th>
+<th style="text-align:center">$q$</th>
+<th style="text-align:center">$\lnot\ p$</th>
+<th style="text-align:center">$p\land q$</th>
+<th style="text-align:center">$p\lor q$</th>
+<th style="text-align:center">$p \rightarrow q$</th>
+<th style="text-align:center">$p \leftrightarrow q$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">$T$</td>
+<td style="text-align:center">$T$</td>
+<td style="text-align:center">$   F    $</td>
+<td style="text-align:center">$   T    $</td>
+<td style="text-align:center">$   T   $</td>
+<td style="text-align:center">$       T       $</td>
+<td style="text-align:center">$         T         $</td>
+</tr>
+<tr>
+<td style="text-align:center">$T$</td>
+<td style="text-align:center">$F$</td>
+<td style="text-align:center">$   F    $</td>
+<td style="text-align:center">$   F    $</td>
+<td style="text-align:center">$   T   $</td>
+<td style="text-align:center">$       F       $</td>
+<td style="text-align:center">$         F         $</td>
+</tr>
+<tr>
+<td style="text-align:center">$F$</td>
+<td style="text-align:center">$T$</td>
+<td style="text-align:center">$   T    $</td>
+<td style="text-align:center">$   F    $</td>
+<td style="text-align:center">$   T   $</td>
+<td style="text-align:center">$       T       $</td>
+<td style="text-align:center">$         F         $</td>
+</tr>
+<tr>
+<td style="text-align:center">$F$</td>
+<td style="text-align:center">$F$</td>
+<td style="text-align:center">$   T    $</td>
+<td style="text-align:center">$   F    $</td>
+<td style="text-align:center">$   F   $</td>
+<td style="text-align:center">$       T       $</td>
+<td style="text-align:center">$         T         $</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cheatsheet">Cheatsheet</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Connective</th>
+<th style="text-align:center">Symbol</th>
+<th style="text-align:center">Statement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">and</td>
+<td style="text-align:center">$\land$</td>
+<td style="text-align:center">Conjunction</td>
+</tr>
+<tr>
+<td style="text-align:center">or</td>
+<td style="text-align:center">$\lor$</td>
+<td style="text-align:center">Disjunction</td>
+</tr>
+<tr>
+<td style="text-align:center">not</td>
+<td style="text-align:center">~,$\lnot$</td>
+<td style="text-align:center">Negation</td>
+</tr>
+<tr>
+<td style="text-align:center">if&hellip;then</td>
+<td style="text-align:center">$\rightarrow, \Rightarrow$</td>
+<td style="text-align:center">Conditional</td>
+</tr>
+<tr>
+<td style="text-align:center">if and only if</td>
+<td style="text-align:center">$\leftrightarrow, \Leftrightarrow$</td>
+<td style="text-align:center">Bi-conditional</td>
+</tr>
+</tbody>
+</table>
+<h2 id="day-2">DAY 2</h2>
+<div class="dt">28-02-2024</div>
+<h3 id="tautologies-contradictions-and-contingency">Tautologies, Contradictions and Contingency</h3>
+<p>A compound proposition that is always true, no matter what the truth values of the propositional variables that occur in it, is called a <em><strong>tautology</strong></em>.</p>
+<p>A compound proposition that is always false is called a <em><strong>contradiction</strong></em>.</p>
+<p>A compound proposition that is neither a tautology nor a contradiction is called a <em><strong>contingency</strong></em>.</p>
+<p>Example:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">$p$</th>
+<th style="text-align:center">$\lnot\ p$</th>
+<th style="text-align:center">$p\lor\lnot\ p$</th>
+<th style="text-align:center">$p\land\lnot\ p$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">$T$</td>
+<td style="text-align:center">$F$</td>
+<td style="text-align:center">$T$</td>
+<td style="text-align:center">$F$</td>
+</tr>
+<tr>
+<td style="text-align:center">$F$</td>
+<td style="text-align:center">$T$</td>
+<td style="text-align:center">$T$</td>
+<td style="text-align:center">$F$</td>
+</tr>
+</tbody>
+</table>
+<h3 id="logical-equivalence">Logical Equivalence</h3>
+<p>Compound propositions that have the same truth values
+in all possible cases are called logically equivalent.
+We can also define this notion as follows.</p>
+<p>The compound propositions $p$ and $q$ are called logically
+equivalent if $p \Leftrightarrow q$ is a tautology. The
+notation $p \equiv q$ denotes that $p$ and $q$ are
+logically equivalent.</p>
+<blockquote>
+<p><strong>Note:</strong>
+The symbol $\equiv$ is not a logical connective, and
+$p \equiv q$ is not a compound proposition but rather
+is the statement that $p \leftrightarrow q$ is a tautology.
+The symbol $\Leftrightarrow$ is sometimes used instead
+of $\equiv$ to denote logical equivalence.</p>
+</blockquote>
+<h3 id="laws-of-proposition">Laws of Proposition</h3>
+<h4 id="commutative-laws">Commutative Laws</h4>
+<ol>
+<li>$p\lor q \equiv p \land q$</li>
+<li>$p\land q \equiv p \lor q$</li>
+</ol>
+<h4 id="associative-laws">Associative Laws</h4>
+<ol>
+<li>$p\lor (q\lor r) \equiv (p\lor q)\lor r$</li>
+<li>$p\land (q\land r) \equiv (p\land q)\land r$</li>
+</ol>
+<h4 id="distributive-laws">Distributive Laws</h4>
+<ol>
+<li>$p\lor (q\land r) \equiv (p\lor q)\land (p\lor r)$</li>
+<li>$p\land (q\lor r) \equiv (p\land q)\lor (p\land r)$</li>
+</ol>
+<h4 id="de-morgans-laws">De Morgan&rsquo;s Laws</h4>
+<ol>
+<li>$\lnot\ (p\lor q) \equiv \lnot\ p \land \lnot\ q$</li>
+<li>$\lnot\ (p\land q) \equiv \lnot\ p \lor \lnot\ q$</li>
+</ol>
+<h4 id="double-negation-laws">Double Negation Laws</h4>
+<ol>
+<li>$\lnot\ (\lnot\ p) \equiv p$</li>
+</ol>
+<h4 id="identity-laws">Identity Laws</h4>
+<ol>
+<li>$p\land T \equiv p$</li>
+<li>$p\lor F \equiv p$</li>
+</ol>
+<h4 id="domination-laws">Domination Laws</h4>
+<ol>
+<li>$p\lor T \equiv T$</li>
+<li>$p\land F \equiv F$</li>
+</ol>
+<h4 id="negation-laws">Negation Laws</h4>
+<ol>
+<li>$p\lor \lnot\ p\equiv T$</li>
+<li>$p\land \lnot\ p\equiv F$</li>
+</ol>
+<h4 id="idempotent-laws">Idempotent Laws</h4>
+<ol>
+<li>$p\lor p \equiv p$</li>
+<li>$p\land q\equiv p$</li>
+</ol>
+<h4 id="absorption-laws">Absorption Laws</h4>
+<ol>
+<li>$p\lor (p\land q) \equiv p$</li>
+<li>$p\land (p\lor q) \equiv p$</li>
+</ol>
+<h3 id="logical-equivalence-using-conditional-preposition">Logical equivalence using conditional preposition</h3>
+<ol>
+<li>$p\rightarrow q \equiv \lnot\ p \lor q$</li>
+<li>$p\rightarrow q \equiv \lnot\ q \rightarrow\lnot\ q$</li>
+<li>$p\lor q \equiv \lnot\ p \rightarrow q$</li>
+<li>$p\land q \equiv \lnot\ (p \rightarrow\lnot\ q)$</li>
+<li>$\lnot\ (p\rightarrow q) \equiv p \land\lnot\ q$</li>
+<li>$(p\rightarrow q) \land (p\rightarrow r) \equiv p \rightarrow (q\land r)$</li>
+<li></li>
+</ol>
+
+</article>
+
+
+            <hr>
+            <center>
+                &#127279; <a href="https://www.gnu.org/licenses/copyleft.en.html">Copyleft</a> 2022-2023 <a
+                    href="https://iamb4uc.xyz">B4UC</a>.
+                No rights reserved
+            </center>
+        </div>
+    </main>
+
+</body>
+
+</html>
