@@ -33,7 +33,7 @@ title = "📔 Notes"
   [params.theme_config]
     appearance = "auto"
     back_home_text = "📖"
-    date_format = "13-01-2006"
+    date_format = "02-01-2006"
 
 [privacy]
   [privacy.disqus]
