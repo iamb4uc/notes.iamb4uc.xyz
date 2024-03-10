@@ -15,6 +15,11 @@ body a {
     padding: 3px 7px;
 }
 
+p {
+    padding-top: 5px;
+    line-height: 25px;
+}
+
 body li {
     margin: 10px;
 }
@@ -25,8 +30,8 @@ html {
 
 body {
     font-family: "Courier Prime", monospace;
-    font-size: 90%;
-    line-height: 1.4;
+    // font-size: 90%;
+    line-height: 1.2;
     margin: 0;
     min-height: 100%;
     overflow-wrap: break-word;
@@ -45,7 +50,7 @@ header h1 {
     font-size: 2em;
 }
 
-h2,
+
 h3,
 h4,
 h5,
@@ -54,7 +59,7 @@ h6 {
 }
 
 p {
-    margin: 10px 0;
+    margin: 10px;
 }
 
 li {
@@ -83,6 +88,16 @@ hr {
     &:after {
         content: attr(data-content) "---";
     }
+}
+
+h2 {
+    margin-bottom: 0px;
+    margin-top: 2.5em;
+}
+
+.dt {
+    color: #aaa;
+    padding: 0px 0px 10px 0px;
 }
 
 table {
@@ -151,4 +166,5 @@ figcaption {
 .house {
     font-size: 2em;
     display: flex;
+    background-color: #f7f7f2;
 }
